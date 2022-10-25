@@ -1,11 +1,25 @@
 {
-  "name": "team",
+  "name": "generate-team-profile",
   "version": "1.0.0",
-  "description": "Generating Team Profile",
-  "main": "generate-team-profile.js",
+  "description": "## Your Task",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose test/*",
+    "start": "node app.js"
   },
-  "author": "Riwa Dorjee Sherpa",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdsherpa/Generate-Team-Profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdsherpa/Generate-Team-Profile/issues"
+  },
+  "homepage": "https://github.com/rdsherpa/Generate-Team-Profile#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^24.8.0"
+  }
 }
