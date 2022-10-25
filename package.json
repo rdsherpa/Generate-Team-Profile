@@ -1,0 +1,11 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "description": "Generating Team Profile",
+  "main": "generate-team-profile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riwa Dorjee Sherpa",
+  "license": "ISC"
+}
