@@ -17,7 +17,7 @@ const generateTeam = (team) => {
           </ul>
       </div>
       `;
-    html.push(managerHtml);
+    html.push(managerHtml); // we are pushing managerHtml into html or can generate html
   };
   const generateEngineer = (engineer) => {
     console.log(engineer);
@@ -52,12 +52,13 @@ const generateTeam = (team) => {
     html.push(internHtml);
   };
 
-  // create a loop for all of the employees
+  // create a loop for all of the employees, loop through the array
   for (let i = 0; i < team.length; i++) {
     if (team[i].getRole() === "Manager") {
       generateManager(team[i]);
     }
     if (team[i].getRole() === "Engineer") {
+      // I am importing Engineer array form file "./lib/Employee.js"
       generateEngineer(team[i]);
     }
     if (team[i].getRole() === "Intern") {
@@ -68,7 +69,7 @@ const generateTeam = (team) => {
   // join the HTML blocks
   return html.join("");
 };
-// export function to generate entire page
+// export function to generate entire page // general structure of the page
 module.exports = (team) => {
   return `
   <!DOCTYPE html>
