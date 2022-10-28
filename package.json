@@ -21,5 +21,8 @@
   "homepage": "https://github.com/rdsherpa/Generate-Team-Profile#readme",
   "devDependencies": {
     "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
   }
 }
